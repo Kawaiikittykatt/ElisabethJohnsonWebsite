@@ -294,7 +294,7 @@ li{
   grid-template-columns: auto auto auto auto auto auto auto;
   column-gap 50px;
   @media (max-width: 768px){
-    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px;
+    grid-template-columns: 70px 70px 70px 70px 70px 70px 70px;
     column-gap 30px; 
 }
 }
@@ -361,6 +361,10 @@ li{
   grid-row:9/10;
   grid-column:5/7;
   padding:0px;
+  @media (max-width: 768px){
+     grid-row-start:10;
+     grid-column-start:1;
+}
   #title{
     border: 1.7px solid #ddc6a4;
     padding:10px;
