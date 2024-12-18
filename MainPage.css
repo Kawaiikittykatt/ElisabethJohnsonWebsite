@@ -269,9 +269,10 @@
    .container{
     display: grid;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    background-color:white;
     border: 15px #ddc6a4;
-    padding: 20px;
     border-style: ridge;
+    padding: 20px;
   }
   
    .section2{
