@@ -254,6 +254,7 @@
     margin-right: auto;
     max-width: 100em;
     background-image:url("flowers.jpg");
+    padding: 20px;
   }
 
    img {
