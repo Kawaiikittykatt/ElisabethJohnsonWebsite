@@ -269,6 +269,7 @@
    .container{
     display: grid;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    max-width: 80em;
     background-color:white;
     border: 15px #ddc6a4;
     border-style: ridge;
