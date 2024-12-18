@@ -252,7 +252,7 @@
     color: black;
     margin-left: auto;
     margin-right: auto;
-    max-width: 80em;
+    max-width: 100em;
     background-image:url("flowers.jpg");
   }
 
@@ -268,7 +268,7 @@
   
    .container{
     display: grid;
-    grid-template-columns: 5% 10% 10% 10% 10% 10% 10% 10% 10% 5%;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     background-color:white;
     border: 15px #ddc6a4;
     border-style: ridge;
