@@ -252,10 +252,13 @@
     color: black;
     margin-left: auto;
     margin-right: auto;
-    max-width: 80em;
-    border: 15px #ddc6a4;
-    padding: 20px;
-    border-style: ridge;
+    max-width: 100em;
+    background-image: url(https://i.pinimg.com/736x/74/ad/6c/74ad6c3acfe07f77a4cf713d81860013.jpg);
+  }
+
+   img {
+    max-width: 100%;
+    height: auto;
   }
   
    h2{
@@ -266,6 +269,9 @@
    .container{
     display: grid;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    border: 15px #ddc6a4;
+    padding: 20px;
+    border-style: ridge;
   }
   
    .section2{
