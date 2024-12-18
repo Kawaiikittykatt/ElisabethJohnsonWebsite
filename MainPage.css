@@ -253,7 +253,7 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 100em;
-    background-image: url("flowers.jpg");
+    background-image:url("flowers.jpg");
   }
 
    img {
