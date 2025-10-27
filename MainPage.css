@@ -12,7 +12,7 @@ li{
 }
 
 
- heading {
+ .heading {
  color: black;
  font-family: arial;
 }
@@ -23,7 +23,7 @@ li{
   margin-right: auto;
   max-width: 100em;
   background-image:url("flowers.jpg");
-  padding: 20px;
+  padding: 50px;
 }
 
  img {
@@ -74,10 +74,11 @@ li{
   border-top: 1.7px solid #ddc6a4;
   grid-row: 7/8;
   grid-column:1/11;
-  #ab{
-   padding: 15px;
-   align-content: space-between;
 }
+
+.section3 #ab{
+  padding: 15px 15px 0 15px; /* top right bottom left: bottom = 0 */
+  align-content: space-between;
 }
 
 .section5{
